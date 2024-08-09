@@ -1,0 +1,8 @@
+@startuml
+class GradeManager {
+    + GradeManager(context:ApplicationDbContext)
+    + AddGrade(tableName:string, lastName:string, grade:double) : void
+    + GetGrade(prompt:string) : double
+}
+IGradeManager <|-- GradeManager
+@enduml

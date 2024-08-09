@@ -1,0 +1,13 @@
+@startuml
+!include .\\ApplicationDbContext.puml
+!include .\\Program.puml
+!include .\\Classes\GradeManager.puml
+!include .\\Classes\StudentManager.puml
+!include .\\Intefaces\IGradeManager.puml
+!include .\\Intefaces\IStudentManager.puml
+!include .\\Models\Grade.puml
+!include .\\Models\Student.puml
+!include .\\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.puml
+!include .\\obj\Debug\net6.0\dbConsoleApp.AssemblyInfo.puml
+!include .\\obj\Debug\net6.0\dbConsoleApp.GlobalUsings.g.puml
+@enduml

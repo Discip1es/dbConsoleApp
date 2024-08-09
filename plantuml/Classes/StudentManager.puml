@@ -1,0 +1,10 @@
+@startuml
+class StudentManager {
+    + StudentManager(context:ApplicationDbContext)
+    + AddStudent(lastName:string, firstName:string, group:string) : void
+    + DisplayAllStudents() : void
+    + DisplayTopStudent() : void
+    + GetInput(prompt:string) : string
+}
+IStudentManager <|-- StudentManager
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+class Student {
+    + Id : int <<get>> <<set>>
+    + LastName : string? <<get>> <<set>>
+    + FirstName : string? <<get>> <<set>>
+    + GroupName : string? <<get>> <<set>>
+}
+@enduml

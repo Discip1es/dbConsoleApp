@@ -1,0 +1,7 @@
+@startuml
+class Grade {
+    + Id : int <<get>> <<set>>
+    + LastName : string? <<get>> <<set>>
+    + Value : double <<get>> <<set>>
+}
+@enduml
