@@ -1,6 +1,4 @@
-﻿using System;
-using Classes;
-using Interfaces;
+﻿using Classes;
 
 class Program
 {

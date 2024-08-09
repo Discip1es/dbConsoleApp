@@ -1,7 +1,4 @@
-﻿using System;
-using System.Linq;
-using Microsoft.EntityFrameworkCore;
-using Interfaces;
+﻿using Interfaces;
 using Models;
 
 namespace Classes
@@ -58,7 +55,7 @@ namespace Classes
                     s.FirstName,
                     s.GroupName,
                     AverageGrade = (_context.MathGrades.Where(g => g.LastName == s.LastName).Average(g => g.Value) +
-                                   _context.ProgGrades.Where(g => g.LastName == s.LastName).Average(g => g.Value))/2
+                                   _context.ProgGrades.Where(g => g.LastName == s.LastName).Average(g => g.Value)) / 2
                 })
                 .OrderByDescending(s => s.AverageGrade)
                 .FirstOrDefault();
