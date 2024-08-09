@@ -1,5 +1,5 @@
 # dbConsoleApp
 ## Пример использования XML комментариев и генерации документации используя Doxygen
-![doxygen](./out/doxygen.png)
+![doxygen](./img/doxygen.png)
 ## Пример генерации PlantUML диаграммы классов
-![plant UML diagram](./out/plantuml/include/include.png)
+![plant UML diagram](./img/plantuml/include/include.png)
