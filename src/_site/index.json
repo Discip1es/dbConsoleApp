@@ -1,0 +1,82 @@
+{
+  "api/Classes.GradeManager.html": {
+    "href": "api/Classes.GradeManager.html",
+    "title": "Class GradeManager | dbConsoleApp",
+    "keywords": "Class GradeManager Namespace Classes Assembly dbConsoleApp.dll Реализация интерфейса IGradeManager для управления оценками. public class GradeManager : IGradeManager Inheritance object GradeManager Implements IGradeManager Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors GradeManager(ApplicationDbContext) Конструктор класса GradeManager. public GradeManager(ApplicationDbContext context) Parameters context ApplicationDbContext Контекст базы данных. Methods AddGrade(string, string, double) Добавляет оценку для студента. public void AddGrade(string tableName, string lastName, double grade) Parameters tableName string lastName string grade double GetGrade(string) Получает оценку от пользователя. public double GetGrade(string prompt) Parameters prompt string Returns double"
+  },
+  "api/Classes.StudentManager.html": {
+    "href": "api/Classes.StudentManager.html",
+    "title": "Class StudentManager | dbConsoleApp",
+    "keywords": "Class StudentManager Namespace Classes Assembly dbConsoleApp.dll Реализация интерфейса IStudentManager для управления студентами. public class StudentManager : IStudentManager Inheritance object StudentManager Implements IStudentManager Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors StudentManager(ApplicationDbContext) Конструктор класса StudentManager. public StudentManager(ApplicationDbContext context) Parameters context ApplicationDbContext Контекст базы данных. Methods AddStudent(string, string, string) Добавляет нового студента в базу данных. public void AddStudent(string lastName, string firstName, string group) Parameters lastName string firstName string group string DisplayAllStudents() Отображает всех студентов. public void DisplayAllStudents() DisplayTopStudent() Отображает студента с самым высоким средним баллом. public void DisplayTopStudent() GetInput(string) Получает ввод от пользователя. public string GetInput(string prompt) Parameters prompt string Returns string"
+  },
+  "api/Classes.html": {
+    "href": "api/Classes.html",
+    "title": "Namespace Classes | dbConsoleApp",
+    "keywords": "Namespace Classes Classes GradeManager Реализация интерфейса IGradeManager для управления оценками. StudentManager Реализация интерфейса IStudentManager для управления студентами."
+  },
+  "api/Interfaces.IGradeManager.html": {
+    "href": "api/Interfaces.IGradeManager.html",
+    "title": "Interface IGradeManager | dbConsoleApp",
+    "keywords": "Interface IGradeManager Namespace Interfaces Assembly dbConsoleApp.dll Интерфейс для управления оценками. public interface IGradeManager Methods AddGrade(string, string, double) Добавляет оценку для студента. void AddGrade(string tableName, string lastName, double grade) Parameters tableName string Название таблицы оценок. lastName string Фамилия студента. grade double Значение оценки. GetGrade(string) Получает оценку от пользователя. double GetGrade(string prompt) Parameters prompt string Сообщение для пользователя. Returns double Введенное значение оценки."
+  },
+  "api/Interfaces.IStudentManager.html": {
+    "href": "api/Interfaces.IStudentManager.html",
+    "title": "Interface IStudentManager | dbConsoleApp",
+    "keywords": "Interface IStudentManager Namespace Interfaces Assembly dbConsoleApp.dll Интерфейс для управления студентами. public interface IStudentManager Methods AddStudent(string, string, string) Добавляет нового студента. void AddStudent(string lastName, string firstName, string group) Parameters lastName string Фамилия студента. firstName string Имя студента. group string Название группы. DisplayAllStudents() Отображает всех студентов. void DisplayAllStudents() DisplayTopStudent() Отображает студента с самым высоким средним баллом. void DisplayTopStudent() GetInput(string) Получает ввод от пользователя. string GetInput(string prompt) Parameters prompt string Сообщение для пользователя. Returns string Введенное значение."
+  },
+  "api/Interfaces.html": {
+    "href": "api/Interfaces.html",
+    "title": "Namespace Interfaces | dbConsoleApp",
+    "keywords": "Namespace Interfaces Interfaces IGradeManager Интерфейс для управления оценками. IStudentManager Интерфейс для управления студентами."
+  },
+  "api/Models.Grade.html": {
+    "href": "api/Models.Grade.html",
+    "title": "Class Grade | dbConsoleApp",
+    "keywords": "Class Grade Namespace Models Assembly dbConsoleApp.dll Модель оценки. public class Grade Inheritance object Grade Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Id Уникальный идентификатор оценки. public int Id { get; set; } Property Value int LastName Фамилия студента, которому принадлежит оценка. public string? LastName { get; set; } Property Value string Value Значение оценки. public double Value { get; set; } Property Value double"
+  },
+  "api/Models.Student.html": {
+    "href": "api/Models.Student.html",
+    "title": "Class Student | dbConsoleApp",
+    "keywords": "Class Student Namespace Models Assembly dbConsoleApp.dll Модель студента. public class Student Inheritance object Student Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties FirstName Имя студента. public string? FirstName { get; set; } Property Value string GroupName Название группы студента. public string? GroupName { get; set; } Property Value string Id Уникальный идентификатор студента. public int Id { get; set; } Property Value int LastName Фамилия студента. public string? LastName { get; set; } Property Value string"
+  },
+  "api/Models.html": {
+    "href": "api/Models.html",
+    "title": "Namespace Models | dbConsoleApp",
+    "keywords": "Namespace Models Classes Grade Модель оценки. Student Модель студента."
+  },
+  "docs/Install.html": {
+    "href": "docs/Install.html",
+    "title": "Тут опишите установку | dbConsoleApp",
+    "keywords": "Тут опишите установку"
+  },
+  "docs/Template.html": {
+    "href": "docs/Template.html",
+    "title": "| dbConsoleApp",
+    "keywords": "Тут будут примеры"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "С чего начнем? | dbConsoleApp",
+    "keywords": "С чего начнем?"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Введение | dbConsoleApp",
+    "keywords": "Введение"
+  },
+  "docs/p1/L1.html": {
+    "href": "docs/p1/L1.html",
+    "title": "Тут описание | dbConsoleApp",
+    "keywords": "Тут описание"
+  },
+  "docs/p1/L2.html": {
+    "href": "docs/p1/L2.html",
+    "title": "И тут описание | dbConsoleApp",
+    "keywords": "И тут описание"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Это стартовая страница | dbConsoleApp",
+    "keywords": "Это стартовая страница здесь вы можете добавить описание своего проекта Заметки Добавьте изображения в папку images если файл ссылается на изображение."
+  }
+}

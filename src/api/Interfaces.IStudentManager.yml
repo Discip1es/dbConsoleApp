@@ -1,0 +1,218 @@
+### YamlMime:ManagedReference
+items:
+- uid: Interfaces.IStudentManager
+  commentId: T:Interfaces.IStudentManager
+  id: IStudentManager
+  parent: Interfaces
+  children:
+  - Interfaces.IStudentManager.AddStudent(System.String,System.String,System.String)
+  - Interfaces.IStudentManager.DisplayAllStudents
+  - Interfaces.IStudentManager.DisplayTopStudent
+  - Interfaces.IStudentManager.GetInput(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IStudentManager
+  nameWithType: IStudentManager
+  fullName: Interfaces.IStudentManager
+  type: Interface
+  source:
+    remote:
+      path: src/Intefaces/IStudentManager.cs
+      branch: main
+      repo: https://github.com/Discip1es/dbConsoleApp.git
+    id: IStudentManager
+    path: Intefaces/IStudentManager.cs
+    startLine: 5
+  assemblies:
+  - dbConsoleApp
+  namespace: Interfaces
+  summary: Интерфейс для управления студентами.
+  example: []
+  syntax:
+    content: public interface IStudentManager
+    content.vb: Public Interface IStudentManager
+- uid: Interfaces.IStudentManager.AddStudent(System.String,System.String,System.String)
+  commentId: M:Interfaces.IStudentManager.AddStudent(System.String,System.String,System.String)
+  id: AddStudent(System.String,System.String,System.String)
+  parent: Interfaces.IStudentManager
+  langs:
+  - csharp
+  - vb
+  name: AddStudent(string, string, string)
+  nameWithType: IStudentManager.AddStudent(string, string, string)
+  fullName: Interfaces.IStudentManager.AddStudent(string, string, string)
+  type: Method
+  source:
+    remote:
+      path: src/Intefaces/IStudentManager.cs
+      branch: main
+      repo: https://github.com/Discip1es/dbConsoleApp.git
+    id: AddStudent
+    path: Intefaces/IStudentManager.cs
+    startLine: 13
+  assemblies:
+  - dbConsoleApp
+  namespace: Interfaces
+  summary: Добавляет нового студента.
+  example: []
+  syntax:
+    content: void AddStudent(string lastName, string firstName, string group)
+    parameters:
+    - id: lastName
+      type: System.String
+      description: Фамилия студента.
+    - id: firstName
+      type: System.String
+      description: Имя студента.
+    - id: group
+      type: System.String
+      description: Название группы.
+    content.vb: Sub AddStudent(lastName As String, firstName As String, group As String)
+  overload: Interfaces.IStudentManager.AddStudent*
+  nameWithType.vb: IStudentManager.AddStudent(String, String, String)
+  fullName.vb: Interfaces.IStudentManager.AddStudent(String, String, String)
+  name.vb: AddStudent(String, String, String)
+- uid: Interfaces.IStudentManager.DisplayAllStudents
+  commentId: M:Interfaces.IStudentManager.DisplayAllStudents
+  id: DisplayAllStudents
+  parent: Interfaces.IStudentManager
+  langs:
+  - csharp
+  - vb
+  name: DisplayAllStudents()
+  nameWithType: IStudentManager.DisplayAllStudents()
+  fullName: Interfaces.IStudentManager.DisplayAllStudents()
+  type: Method
+  source:
+    remote:
+      path: src/Intefaces/IStudentManager.cs
+      branch: main
+      repo: https://github.com/Discip1es/dbConsoleApp.git
+    id: DisplayAllStudents
+    path: Intefaces/IStudentManager.cs
+    startLine: 18
+  assemblies:
+  - dbConsoleApp
+  namespace: Interfaces
+  summary: Отображает всех студентов.
+  example: []
+  syntax:
+    content: void DisplayAllStudents()
+    content.vb: Sub DisplayAllStudents()
+  overload: Interfaces.IStudentManager.DisplayAllStudents*
+- uid: Interfaces.IStudentManager.DisplayTopStudent
+  commentId: M:Interfaces.IStudentManager.DisplayTopStudent
+  id: DisplayTopStudent
+  parent: Interfaces.IStudentManager
+  langs:
+  - csharp
+  - vb
+  name: DisplayTopStudent()
+  nameWithType: IStudentManager.DisplayTopStudent()
+  fullName: Interfaces.IStudentManager.DisplayTopStudent()
+  type: Method
+  source:
+    remote:
+      path: src/Intefaces/IStudentManager.cs
+      branch: main
+      repo: https://github.com/Discip1es/dbConsoleApp.git
+    id: DisplayTopStudent
+    path: Intefaces/IStudentManager.cs
+    startLine: 23
+  assemblies:
+  - dbConsoleApp
+  namespace: Interfaces
+  summary: Отображает студента с самым высоким средним баллом.
+  example: []
+  syntax:
+    content: void DisplayTopStudent()
+    content.vb: Sub DisplayTopStudent()
+  overload: Interfaces.IStudentManager.DisplayTopStudent*
+- uid: Interfaces.IStudentManager.GetInput(System.String)
+  commentId: M:Interfaces.IStudentManager.GetInput(System.String)
+  id: GetInput(System.String)
+  parent: Interfaces.IStudentManager
+  langs:
+  - csharp
+  - vb
+  name: GetInput(string)
+  nameWithType: IStudentManager.GetInput(string)
+  fullName: Interfaces.IStudentManager.GetInput(string)
+  type: Method
+  source:
+    remote:
+      path: src/Intefaces/IStudentManager.cs
+      branch: main
+      repo: https://github.com/Discip1es/dbConsoleApp.git
+    id: GetInput
+    path: Intefaces/IStudentManager.cs
+    startLine: 30
+  assemblies:
+  - dbConsoleApp
+  namespace: Interfaces
+  summary: Получает ввод от пользователя.
+  example: []
+  syntax:
+    content: string GetInput(string prompt)
+    parameters:
+    - id: prompt
+      type: System.String
+      description: Сообщение для пользователя.
+    return:
+      type: System.String
+      description: Введенное значение.
+    content.vb: Function GetInput(prompt As String) As String
+  overload: Interfaces.IStudentManager.GetInput*
+  nameWithType.vb: IStudentManager.GetInput(String)
+  fullName.vb: Interfaces.IStudentManager.GetInput(String)
+  name.vb: GetInput(String)
+references:
+- uid: Interfaces
+  commentId: N:Interfaces
+  href: Interfaces.html
+  name: Interfaces
+  nameWithType: Interfaces
+  fullName: Interfaces
+- uid: Interfaces.IStudentManager.AddStudent*
+  commentId: Overload:Interfaces.IStudentManager.AddStudent
+  href: Interfaces.IStudentManager.html#Interfaces_IStudentManager_AddStudent_System_String_System_String_System_String_
+  name: AddStudent
+  nameWithType: IStudentManager.AddStudent
+  fullName: Interfaces.IStudentManager.AddStudent
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Interfaces.IStudentManager.DisplayAllStudents*
+  commentId: Overload:Interfaces.IStudentManager.DisplayAllStudents
+  href: Interfaces.IStudentManager.html#Interfaces_IStudentManager_DisplayAllStudents
+  name: DisplayAllStudents
+  nameWithType: IStudentManager.DisplayAllStudents
+  fullName: Interfaces.IStudentManager.DisplayAllStudents
+- uid: Interfaces.IStudentManager.DisplayTopStudent*
+  commentId: Overload:Interfaces.IStudentManager.DisplayTopStudent
+  href: Interfaces.IStudentManager.html#Interfaces_IStudentManager_DisplayTopStudent
+  name: DisplayTopStudent
+  nameWithType: IStudentManager.DisplayTopStudent
+  fullName: Interfaces.IStudentManager.DisplayTopStudent
+- uid: Interfaces.IStudentManager.GetInput*
+  commentId: Overload:Interfaces.IStudentManager.GetInput
+  href: Interfaces.IStudentManager.html#Interfaces_IStudentManager_GetInput_System_String_
+  name: GetInput
+  nameWithType: IStudentManager.GetInput
+  fullName: Interfaces.IStudentManager.GetInput

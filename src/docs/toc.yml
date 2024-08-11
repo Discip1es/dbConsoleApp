@@ -1,0 +1,16 @@
+﻿- name: Введение
+  href: introduction.md
+- name: С чего начать
+  href: getting-started.md
+- name: Другие страницы
+  items:
+    - name: Установка
+      href: Install.md
+    - name: Примеры
+      href: Template.md
+- name: Еще один раздел
+  items:
+    - name: Что еще
+      href: ./p1/L1.md
+    - name: И еще что то
+      href: ./p1/L2.md

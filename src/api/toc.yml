@@ -1,0 +1,24 @@
+### YamlMime:TableOfContent
+items:
+- uid: Classes
+  name: Classes
+  items:
+  - uid: Classes.GradeManager
+    name: GradeManager
+  - uid: Classes.StudentManager
+    name: StudentManager
+- uid: Interfaces
+  name: Interfaces
+  items:
+  - uid: Interfaces.IGradeManager
+    name: IGradeManager
+  - uid: Interfaces.IStudentManager
+    name: IStudentManager
+- uid: Models
+  name: Models
+  items:
+  - uid: Models.Grade
+    name: Grade
+  - uid: Models.Student
+    name: Student
+memberLayout: SamePage

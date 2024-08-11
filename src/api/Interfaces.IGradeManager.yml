@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: Interfaces.IGradeManager
+  commentId: T:Interfaces.IGradeManager
+  id: IGradeManager
+  parent: Interfaces
+  children:
+  - Interfaces.IGradeManager.AddGrade(System.String,System.String,System.Double)
+  - Interfaces.IGradeManager.GetGrade(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IGradeManager
+  nameWithType: IGradeManager
+  fullName: Interfaces.IGradeManager
+  type: Interface
+  source:
+    remote:
+      path: src/Intefaces/IGradeManager.cs
+      branch: main
+      repo: https://github.com/Discip1es/dbConsoleApp.git
+    id: IGradeManager
+    path: Intefaces/IGradeManager.cs
+    startLine: 5
+  assemblies:
+  - dbConsoleApp
+  namespace: Interfaces
+  summary: Интерфейс для управления оценками.
+  example: []
+  syntax:
+    content: public interface IGradeManager
+    content.vb: Public Interface IGradeManager
+- uid: Interfaces.IGradeManager.AddGrade(System.String,System.String,System.Double)
+  commentId: M:Interfaces.IGradeManager.AddGrade(System.String,System.String,System.Double)
+  id: AddGrade(System.String,System.String,System.Double)
+  parent: Interfaces.IGradeManager
+  langs:
+  - csharp
+  - vb
+  name: AddGrade(string, string, double)
+  nameWithType: IGradeManager.AddGrade(string, string, double)
+  fullName: Interfaces.IGradeManager.AddGrade(string, string, double)
+  type: Method
+  source:
+    remote:
+      path: src/Intefaces/IGradeManager.cs
+      branch: main
+      repo: https://github.com/Discip1es/dbConsoleApp.git
+    id: AddGrade
+    path: Intefaces/IGradeManager.cs
+    startLine: 13
+  assemblies:
+  - dbConsoleApp
+  namespace: Interfaces
+  summary: Добавляет оценку для студента.
+  example: []
+  syntax:
+    content: void AddGrade(string tableName, string lastName, double grade)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Название таблицы оценок.
+    - id: lastName
+      type: System.String
+      description: Фамилия студента.
+    - id: grade
+      type: System.Double
+      description: Значение оценки.
+    content.vb: Sub AddGrade(tableName As String, lastName As String, grade As Double)
+  overload: Interfaces.IGradeManager.AddGrade*
+  nameWithType.vb: IGradeManager.AddGrade(String, String, Double)
+  fullName.vb: Interfaces.IGradeManager.AddGrade(String, String, Double)
+  name.vb: AddGrade(String, String, Double)
+- uid: Interfaces.IGradeManager.GetGrade(System.String)
+  commentId: M:Interfaces.IGradeManager.GetGrade(System.String)
+  id: GetGrade(System.String)
+  parent: Interfaces.IGradeManager
+  langs:
+  - csharp
+  - vb
+  name: GetGrade(string)
+  nameWithType: IGradeManager.GetGrade(string)
+  fullName: Interfaces.IGradeManager.GetGrade(string)
+  type: Method
+  source:
+    remote:
+      path: src/Intefaces/IGradeManager.cs
+      branch: main
+      repo: https://github.com/Discip1es/dbConsoleApp.git
+    id: GetGrade
+    path: Intefaces/IGradeManager.cs
+    startLine: 20
+  assemblies:
+  - dbConsoleApp
+  namespace: Interfaces
+  summary: Получает оценку от пользователя.
+  example: []
+  syntax:
+    content: double GetGrade(string prompt)
+    parameters:
+    - id: prompt
+      type: System.String
+      description: Сообщение для пользователя.
+    return:
+      type: System.Double
+      description: Введенное значение оценки.
+    content.vb: Function GetGrade(prompt As String) As Double
+  overload: Interfaces.IGradeManager.GetGrade*
+  nameWithType.vb: IGradeManager.GetGrade(String)
+  fullName.vb: Interfaces.IGradeManager.GetGrade(String)
+  name.vb: GetGrade(String)
+references:
+- uid: Interfaces
+  commentId: N:Interfaces
+  href: Interfaces.html
+  name: Interfaces
+  nameWithType: Interfaces
+  fullName: Interfaces
+- uid: Interfaces.IGradeManager.AddGrade*
+  commentId: Overload:Interfaces.IGradeManager.AddGrade
+  href: Interfaces.IGradeManager.html#Interfaces_IGradeManager_AddGrade_System_String_System_String_System_Double_
+  name: AddGrade
+  nameWithType: IGradeManager.AddGrade
+  fullName: Interfaces.IGradeManager.AddGrade
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Interfaces.IGradeManager.GetGrade*
+  commentId: Overload:Interfaces.IGradeManager.GetGrade
+  href: Interfaces.IGradeManager.html#Interfaces_IGradeManager_GetGrade_System_String_
+  name: GetGrade
+  nameWithType: IGradeManager.GetGrade
+  fullName: Interfaces.IGradeManager.GetGrade

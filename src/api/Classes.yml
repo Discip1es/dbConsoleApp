@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Classes
+  commentId: N:Classes
+  id: Classes
+  children:
+  - Classes.GradeManager
+  - Classes.StudentManager
+  langs:
+  - csharp
+  - vb
+  name: Classes
+  nameWithType: Classes
+  fullName: Classes
+  type: Namespace
+  assemblies:
+  - dbConsoleApp
+references:
+- uid: Classes.GradeManager
+  commentId: T:Classes.GradeManager
+  href: Classes.GradeManager.html
+  name: GradeManager
+  nameWithType: GradeManager
+  fullName: Classes.GradeManager
+- uid: Classes.StudentManager
+  commentId: T:Classes.StudentManager
+  href: Classes.StudentManager.html
+  name: StudentManager
+  nameWithType: StudentManager
+  fullName: Classes.StudentManager

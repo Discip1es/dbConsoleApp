@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: Interfaces
+  commentId: N:Interfaces
+  id: Interfaces
+  children:
+  - Interfaces.IGradeManager
+  - Interfaces.IStudentManager
+  langs:
+  - csharp
+  - vb
+  name: Interfaces
+  nameWithType: Interfaces
+  fullName: Interfaces
+  type: Namespace
+  assemblies:
+  - dbConsoleApp
+references:
+- uid: Interfaces.IGradeManager
+  commentId: T:Interfaces.IGradeManager
+  parent: Interfaces
+  href: Interfaces.IGradeManager.html
+  name: IGradeManager
+  nameWithType: IGradeManager
+  fullName: Interfaces.IGradeManager
+- uid: Interfaces.IStudentManager
+  commentId: T:Interfaces.IStudentManager
+  parent: Interfaces
+  href: Interfaces.IStudentManager.html
+  name: IStudentManager
+  nameWithType: IStudentManager
+  fullName: Interfaces.IStudentManager
+- uid: Interfaces
+  commentId: N:Interfaces
+  href: Interfaces.html
+  name: Interfaces
+  nameWithType: Interfaces
+  fullName: Interfaces

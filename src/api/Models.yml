@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Models
+  commentId: N:Models
+  id: Models
+  children:
+  - Models.Grade
+  - Models.Student
+  langs:
+  - csharp
+  - vb
+  name: Models
+  nameWithType: Models
+  fullName: Models
+  type: Namespace
+  assemblies:
+  - dbConsoleApp
+references:
+- uid: Models.Grade
+  commentId: T:Models.Grade
+  href: Models.Grade.html
+  name: Grade
+  nameWithType: Grade
+  fullName: Models.Grade
+- uid: Models.Student
+  commentId: T:Models.Student
+  href: Models.Student.html
+  name: Student
+  nameWithType: Student
+  fullName: Models.Student
