@@ -5,3 +5,5 @@
 ![docfx](./img/docfx.png)
 ## Пример генерации PlantUML диаграммы классов
 ![plant UML diagram](./img/plantuml/include/include.png)
+
+**Пример PR**
